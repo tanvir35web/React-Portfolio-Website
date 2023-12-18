@@ -1,16 +1,16 @@
-import React from 'react'
-import NavBar from '../components/NavBar'
-import Footer from '../components/Footer'
-import HeroAll from '../components/HeroAll'
+import React from "react";
+import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
+import HeroAll from "../components/HeroAll";
 
 const About = () => {
   return (
     <>
-    <NavBar/>
-    <HeroAll heading={"ABOUT"} text={"I'm a Front-End Developer"}/>
-    <Footer/>
+      <NavBar />
+      <HeroAll heading={"ABOUT"} text={"I'm a Front-End Developer"} />
+      <Footer />
     </>
-  )
-}
+  );
+};
 
-export default About
+export default About;
