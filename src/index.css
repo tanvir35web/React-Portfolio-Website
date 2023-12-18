@@ -23,16 +23,18 @@ ul {
   padding: 12px 32px;
   font-size: 1rem;
   text-transform: uppercase;
-  background: rgb(217, 217, 0);
+  background: #149ECA;
   color: #222;
   border: 1px solid white;
   font-weight: 600;
   cursor: pointer;
+  border: none;
 }
 
 .btn-light {
   background: transparent;
   color: white;
+  border: 1px solid #149ECA;
 }
 
 .btn:hover {
