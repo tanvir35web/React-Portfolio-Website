@@ -33,7 +33,7 @@
 
 
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 640px) {
     .nav-menu {
         flex-direction: column;
         justify-content: center;
