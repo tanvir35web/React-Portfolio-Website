@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import HeroAll from "../components/HeroAll";
-import PricingCard from "../components/PricingCard";
+import PricingCards from "../components/PricingCards";
 import ProjectCard from "../components/ProjectCard";
 
 const Project = () => {
@@ -11,7 +11,7 @@ const Project = () => {
       <NavBar />
       <HeroAll heading={"PROJECTS"} text={"Some of my recent projects"} />
       <ProjectCard/>
-      <PricingCard/>
+      <PricingCards/>
       <Footer />
     </>
   );
