@@ -4,14 +4,15 @@
     align-items: center;
     padding: 1rem;
     width: 100%;
-    height: 80px;
+    height: 70px;
     position: fixed;
     z-index: 10;
 }
 
 .header-bg {
-    background-color: rgba(0, 0, 0, 0.562);
-    transition: 0.5s;
+    background-color: rgba(0, 0, 0, 0.226);
+    backdrop-filter: blur(50px);
+    transition: 0.2s;
 }
 
 .nav-menu {
@@ -23,7 +24,7 @@
 }
 
 .nav-menu li a {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 500;
 }
 
