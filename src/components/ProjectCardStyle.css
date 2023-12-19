@@ -92,6 +92,13 @@
   }
 
   @media screen and (max-width: 500px) {
+
+    .project .projects-card {
+        width: 400px;
+        min-width: 300px;
+        padding: 1rem 0.6rem 0.3rem;
+        
+    }
     
     .project-button {
         margin: 1rem auto;
