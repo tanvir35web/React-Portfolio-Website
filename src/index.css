@@ -45,11 +45,14 @@ ul {
 
 
 
+
+
 @media screen and (max-width:640px) {
   .btn {
     padding: 8px 20px;
     font-size: 0.9rem;
   }
+  
 }
 
 
