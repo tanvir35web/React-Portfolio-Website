@@ -93,11 +93,13 @@
 
   @media screen and (max-width: 500px) {
 
-    .project .projects-card {
-        width: 400px;
-        min-width: 300px;
-        padding: 2rem 1.2rem 1rem;
+    .project {
+        padding: 2rem 1rem;
         
+    }
+
+    .project .projects-card {
+        padding: 2rem 1.2rem 1rem;
     }
     
     .project-button {
