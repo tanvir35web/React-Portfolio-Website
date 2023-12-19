@@ -26,7 +26,7 @@ const Form = () => {
         </div>
 
     </div>
-  )
-}
+  );
+};
 
-export default Form
+export default Form;
