@@ -1,6 +1,5 @@
 import "./ProjectCardStyle.css";
 import React from "react";
-import projectImg1 from "../assets/project1.png";
 import { Link } from "react-router-dom";
 
 const ProjectCard = ({ image, alt, title, text, git, link }) => {

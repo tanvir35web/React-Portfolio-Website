@@ -59,4 +59,12 @@ export const ProjectCardData = [
         git:"https://github.com/tanvir35web/Diatomic-soft",
         link:"https://diatomicsoft.netlify.app/",
     },
+    {
+        image: projectImg4,
+        alt: "Project Image",
+        title: "Web Graphic Design",
+        text: "If you’re looking for a reliable and experienced team to build your website’s frontend, look no further! Our team of expert developers can help you create a visually stunning and user-friendly website that will engage your audience and drive conversions. Contact us today to learn more about our services",
+        git:"https://github.com/tanvir35web/Diatomic-soft",
+        link:"https://diatomicsoft.netlify.app/",
+    },
 ];
