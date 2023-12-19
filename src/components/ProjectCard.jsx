@@ -3,21 +3,19 @@ import React from "react";
 import projectImg1 from "../assets/project1.png";
 import { Link } from "react-router-dom";
 
-const ProjectCard = () => {
+const ProjectCard = ({ image, alt, title, text, git, link }) => {
   return (
     <div className="projects-card">
       <div className="project-img">
-        <img src={projectImg1} alt="Project Image - 1" />
+        <img src={image} alt={alt} />
       </div>
-      <h2>Project-1</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quam?
-      </p>
+      <h2>{title}</h2>
+      <p>{text}</p>
       <div className="project-button">
-        <Link to="/" className="project-btn">
+        <Link to={link} className="project-btn">
           Live Demo
         </Link>
-        <Link to="/" className="project-btn">
+        <Link to={git} className="project-btn">
           GitHub
         </Link>
       </div>
