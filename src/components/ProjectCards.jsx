@@ -7,8 +7,9 @@ const ProjectCards = () => {
     <div className="project">
       <h1 className="project-heading">MY PROJECTS</h1>
       <div className="project-container">
-        {ProjectCardData.map((item) => (
+        {ProjectCardData.map((item, index) => (
           <ProjectCard
+            key={index}
             image={item.image}
             alt={item.alt}
             title={item.title}

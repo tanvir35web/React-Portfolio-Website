@@ -10,8 +10,9 @@ const PricingCards = () => {
         <h1 className="pricing-heading">PRICING</h1>
         <div className="card-container">
           
-          {PricingCardData.map((item) => (
+          {PricingCardData.map((item, index) => (
             <PricingCard
+              key={index}
               planTypes={item.types}
               price={item.price}
               duration={item.duration}
