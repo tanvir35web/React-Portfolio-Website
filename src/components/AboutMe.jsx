@@ -15,7 +15,7 @@ const AboutMe = () => {
 
             Over the past 3 months, I have been learning HTML, CSS, JavaScript, React, Bootstrap, Tailwind CSS, MUI, and other front-end web development technologies. I have completed several projects using these technologies, and I am excited to continue honing my skills and building amazing websites.
 
-            I am also proficient in version control systems like Git and GitHub, which allows me to collaborate effectively with other developers and keep track of changes to my code.
+            I am also proficient in version control systems like Git and GitHub, which allows me to collaborate effectively with other developers and keep track of changes to my code.  <br />  <br />
 
             Thank you for taking the time to read my introduction. I look forward to working with you!</p>
 

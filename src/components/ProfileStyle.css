@@ -27,8 +27,6 @@
     box-shadow: 0 0 5px 5px rgba(0, 75, 132, 0.512);
     animation: animate 5s ease-in-out infinite;
     transition: all 1s ease-in-out;
-    
-
 }
 
 @keyframes animate {

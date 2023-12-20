@@ -1,11 +1,7 @@
 import "./ProfileStyle.css";
 import React from "react";
 import { Link } from "react-router-dom";
-import {
-    FaFacebook,
-    FaLinkedin,
-    FaGithub,
-  } from "react-icons/fa";
+import { FaFacebook, FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Profile = () => {
   return (
@@ -27,37 +23,28 @@ const Profile = () => {
             keep track of changes to my code.
           </p>
           <div className="social-icon-cv">
-        <div className="cv">
-          <Link className="submit-btn">DOWNLOAD RESUME</Link>
-          </div>
-<div className="social-link">
-            <Link to={"https://web.facebook.com/me.tanvir035"} target="_blank">
-              <FaFacebook
-                size={40}
-                style={{ color: "white" }}
-              />
-            </Link>
-
-            <Link to={"https://github.com/tanvir35web"} target="_blank">
-              <FaGithub
-                size={40}
-                style={{ color: "white" }}
-              />
-            </Link>
-
-            <Link
-              to={"https://www.linkedin.com/in/tanvir-niter09/"}
-              target="_blank"
-            >
-              <FaLinkedin
-                size={40}
-                style={{ color: "white" }}
-              />
-            </Link>
+            <div className="cv">
+              <Link to={"https://drive.google.com/file/d/1duzNOnLH7tfBkNdINPPhLgHSBY9kImjA/view"} target="_blank" className="submit-btn">DOWNLOAD RESUME</Link>
             </div>
+            <div className="social-link">
+              <Link
+                to={"https://web.facebook.com/me.tanvir035"}
+                target="_blank"
+              >
+                <FaFacebook size={40} style={{ color: "white" }} />
+              </Link>
 
-            
+              <Link to={"https://github.com/tanvir35web"} target="_blank">
+                <FaGithub size={40} style={{ color: "white" }} />
+              </Link>
 
+              <Link
+                to={"https://www.linkedin.com/in/tanvir-niter09/"}
+                target="_blank"
+              >
+                <FaLinkedin size={40} style={{ color: "white" }} />
+              </Link>
+            </div>
           </div>
         </div>
       </div>
