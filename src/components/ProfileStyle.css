@@ -91,6 +91,13 @@
         
     }
 
+    .profile .profile-container {
+        
+        margin: 0 auto;
+        padding: 3rem 0.3rem;
+    
+    }
+
     .profile .profile-container .left .bubble {
         width: 180px;
         height: 180px;
@@ -101,7 +108,7 @@
         
     .profile .profile-container .right {
         width: 100%;
-        max-width: 300px;
+        max-width: 360px;
         height: 100%;
         max-height: 70vh;
         margin: auto 0;
