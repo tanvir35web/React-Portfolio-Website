@@ -26,18 +26,22 @@ const Profile = () => {
             which allows me to collaborate effectively with other developers and
             keep track of changes to my code.
           </p>
-          <div className="social-icon">
+          <div className="social-icon-cv">
+        <div className="cv">
+          <Link className="submit-btn">DOWNLOAD RESUME</Link>
+          </div>
+<div className="social-link">
             <Link to={"https://web.facebook.com/me.tanvir035"} target="_blank">
               <FaFacebook
-                size={30}
-                style={{ color: "white", marginRight: "1rem" }}
+                size={40}
+                style={{ color: "white" }}
               />
             </Link>
 
             <Link to={"https://github.com/tanvir35web"} target="_blank">
               <FaGithub
-                size={30}
-                style={{ color: "white", marginRight: "1rem" }}
+                size={40}
+                style={{ color: "white" }}
               />
             </Link>
 
@@ -46,10 +50,14 @@ const Profile = () => {
               target="_blank"
             >
               <FaLinkedin
-                size={30}
-                style={{ color: "white", marginRight: "1rem" }}
+                size={40}
+                style={{ color: "white" }}
               />
             </Link>
+            </div>
+
+            
+
           </div>
         </div>
       </div>
