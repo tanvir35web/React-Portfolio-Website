@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 import "./NavBarStyle.css";
 import React, { useState } from "react";
@@ -24,13 +25,15 @@ const NavBar = () => {
 
     window.addEventListener("scroll", changeColor);
 
+
+
   return (
     <div className={color ? "header header-bg" : "header"}>
       <Link to={"/"}>
         <h1>Portfolio</h1>
       </Link>
 
-      <ul className={click ? "nav-menu active" : "nav-menu"}>
+      <ul onClick={() => setClick(false)} className={click ? "nav-menu active" : "nav-menu"}>
         <li>
             <Link to={"/"}> Home </Link>
         </li>
