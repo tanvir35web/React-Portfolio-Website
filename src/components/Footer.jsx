@@ -6,8 +6,9 @@ import {
   FaLinkedin,
   FaMailBulk,
   FaPhone,
-  FaTwitter,
+  FaGithub,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 
 const Footer = () => {
@@ -35,34 +36,46 @@ const Footer = () => {
               size={20}
               style={{ color: "white", marginRight: "2rem" }}
             />
-            <p>tanvir.dev35@gmail.com</p>
+            <p>tanvir.niter09@gmail.com</p>
           </div>
         </div>
 
         <div className="right">
-          <h4>About The Company</h4>
+          <h4>About Me</h4>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam
-            dolorum consequatur, neque modi pariatur possimus sequi nesciunt
-            fuga debitis totam accusantium accusamus nisi at optio, corrupti sed
-            nihil ullam praesentium ab porro nulla minus
+          Hello! I am a Front-End Web Developer with a keen eye for design and a passion for creating beautiful and functional websites.
+
+          Over the past 3 months, I have been learning HTML, CSS, JavaScript, React, Bootstrap, Tailwind CSS, MUI, and other front-end web development technologies. I have completed several projects using these technologies, and I am excited to continue honing my skills and building amazing websites.
+
+          I am also proficient in version control systems like Git and GitHub, which allows me to collaborate effectively with other developers and keep track of changes to my code.
+
           </p>
 
           <div className="social-icon">
-            <FaFacebook
-              size={30}
-              style={{ color: "white", marginRight: "1rem" }}
-            />
 
-            <FaTwitter
-              size={30}
-              style={{ color: "white", marginRight: "1rem" }}
-            />
+            <Link to={"https://web.facebook.com/me.tanvir035"} target="_blank">
+              <FaFacebook 
+                size={30}
+                style={{ color: "white", marginRight: "1rem" }}
+              />
+            </Link>
+           
+            
+            <Link to={"https://github.com/tanvir35web"} target="_blank">
+              <FaGithub
+                size={30}
+                style={{ color: "white", marginRight: "1rem" }}
+              />
+            </Link>
+            
 
-            <FaLinkedin
-              size={30}
-              style={{ color: "white", marginRight: "1rem" }}
-            />
+            <Link to={"https://www.linkedin.com/in/tanvir-niter09/"} target="_blank">
+              <FaLinkedin
+                size={30}
+                style={{ color: "white", marginRight: "1rem" }}
+              />
+            </Link>
+
           </div>
         </div>
       </div>

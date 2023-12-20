@@ -10,8 +10,16 @@ const AboutMe = () => {
     <div className="aboutMe-container">
         <div className="left">
             <h1>Who am I ?</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, quidem! A alias asperiores rerum, incidunt nemo optio blanditiis ad laudantium!</p>
-            <Link to={"/contact"} className='btn'> CONTACT </Link>
+
+            <p>Hello! I am a Front-End Web Developer with a keen eye for design and a passion for creating beautiful and functional websites. I have a B.Sc degree in Department of Fashion Design and Apparel Engineering and 3 months of experience in the fashion industry. However, I realized that my true calling was in computer science and web development, so I decided to pursue a career in this field.
+
+            Over the past 3 months, I have been learning HTML, CSS, JavaScript, React, Bootstrap, Tailwind CSS, MUI, and other front-end web development technologies. I have completed several projects using these technologies, and I am excited to continue honing my skills and building amazing websites.
+
+            I am also proficient in version control systems like Git and GitHub, which allows me to collaborate effectively with other developers and keep track of changes to my code.
+
+            Thank you for taking the time to read my introduction. I look forward to working with you!</p>
+
+            <Link to={"/contact"} className='submit-btn'> CONTACT </Link>
         </div>
         <div className="right">
             <div className="aboutMe-img">
