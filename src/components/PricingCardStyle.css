@@ -26,7 +26,10 @@
 }
 
 .card:hover {
-    scale: 1.05;
+    scale: 1.02;
+    background-color: #38003857;
+    box-shadow: 0 0 10px 2px #98019884;
+
 }
 
 .card .bar {
@@ -51,6 +54,7 @@
 
 .card p {
     line-height: 1.7;
+    color: rgba(255, 255, 255, 0.671);
 }
 
 .btn {

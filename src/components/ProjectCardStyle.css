@@ -5,7 +5,7 @@
 .project {
     width: 100%;
     padding: 2rem 2rem;
-    margin: auto;
+    margin: 3rem auto;
 }
 
 .project .project-heading {
@@ -70,6 +70,10 @@
 .project p {
     color: rgba(255, 255, 255, 0.703);
     margin-bottom: 1rem;
+    padding: 0 0.3rem;
+    text-align: justify;
+    font-size: 0.9rem;
+    
 }
 
 .project-button {

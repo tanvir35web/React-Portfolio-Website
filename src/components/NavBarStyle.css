@@ -4,15 +4,16 @@
     align-items: center;
     padding: 1rem 1.5rem;
     width: 100%;
-    height: 70px;
+    height: 60px;
     position: fixed;
     z-index: 10;
 }
 
 .header-bg {
-    background-color: rgba(0, 0, 0, 0.226);
-    backdrop-filter: blur(50px);
-    transition: 0.2s;
+    background: rgba(0, 0, 0, 0.543);
+        backdrop-filter: blur(40px);
+        -webkit-backdrop-filter: blur(40px);
+    transition: 0.1s;
 }
 
 .nav-menu {
@@ -46,8 +47,9 @@
         align-items: center;
         width: 100%;
         height: 100vh;
-        background: rgba(0, 0, 0, 0.45);
-        backdrop-filter: blur(20px);
+        background: rgba(0, 0, 0, 0.751);
+        backdrop-filter: blur(40px);
+        -webkit-backdrop-filter: blur(40px);
         position: absolute;
         top: 0;
         left: -100%;
