@@ -17,7 +17,7 @@
 }
 
 .aboutMe-container .left p {
-    color: rgba(255, 255, 255, 0.735);
+    color: var( --normalText-color);
     margin-top: 1.5rem;
     text-align: justify;
 }
@@ -38,7 +38,7 @@
 
 .right img {
     max-width: 90%;
-    border: 1px solid rgb(154, 154, 154);
+    border: 1px solid var(--normalText-color);
 }
 
 .right .top {

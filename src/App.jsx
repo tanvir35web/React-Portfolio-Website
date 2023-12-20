@@ -1,5 +1,6 @@
 import React from "react";
 import "./index.css";
+import "./App.css"
 import Home from './routes/Home';
 import Project from './routes/Project';
 import Contact from './routes/Contact';

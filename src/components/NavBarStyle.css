@@ -10,7 +10,7 @@
 }
 
 .header-bg {
-    background: rgba(0, 0, 0, 0.644);
+    background: var(--backgroundOpacity-color);
     backdrop-filter: blur(40px);
         -webkit-backdrop-filter: blur(40px);
     transition: 0.1s;
@@ -31,7 +31,7 @@
 }
 
 .nav-menu li a:hover {
-    color: aqua;
+    color: var(--secondary-color);
 }
 
 .hamburger {
@@ -47,14 +47,14 @@
         align-items: center;
         width: 100%;
         height: 100vh;
-        background: rgba(0, 0, 0, 0.95);
+        background: var(--background-color);
         /* backdrop-filter: blur(40px);
         -webkit-backdrop-filter: blur(40px); */
         position: absolute;
         top: 0;
         left: -100%;
         z-index: -3;
-        transition: 0s;
+        transition: 0.2s ease;
     }
 
     .nav-menu.active {

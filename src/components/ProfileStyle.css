@@ -58,7 +58,7 @@
 
 .profile .profile-container .right .about-text {
     margin: 1rem 0;
-    color: rgba(255, 255, 255, 0.705);
+    color: var(--normalText-color);
 }
 
 .social-link {

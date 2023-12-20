@@ -20,7 +20,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.543);
+    background-color: var(--backgroundOpacity-color);
 }
 
 .hero {
@@ -37,7 +37,7 @@
 }
 
 .hero .content span {
-    color: #18c0f8;
+    color: var(--secondary-color);
 }
 
 .hero .content h1 {

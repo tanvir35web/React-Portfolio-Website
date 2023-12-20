@@ -27,13 +27,13 @@
 
 .card:hover {
     scale: 1.02;
-    background-color: #38003857;
-    box-shadow: 0 0 10px 2px #98019884;
+    background-color: var(--hoverDiv-color);
+    box-shadow: 0 0 10px 2px var(--hoverGlow-color);
 
 }
 
 .card .bar {
-    background-color: #fff;
+    background-color: var(--normalText-color);
     display: block;
     margin: auto;
     width: 55%;
@@ -42,7 +42,7 @@
 }
 
 .card h2 {
-    color: aqua;
+    color: var(--secondary-color);
     font-size: 1.8rem;
     margin: 0.8rem ;
 }
@@ -54,7 +54,7 @@
 
 .card p {
     line-height: 1.7;
-    color: rgba(255, 255, 255, 0.671);
+    color: var(--normalText-color);
 }
 
 .btn {

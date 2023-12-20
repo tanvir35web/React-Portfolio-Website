@@ -31,52 +31,29 @@ flex-direction: column;
 width: 500px;
 padding: 2rem 2rem;
 margin-left: 5rem;
-background-color: rgba(59, 59, 59, 0.493);
+background-color: var(--foreground-color);
 border-radius: 1rem;
-
-
 
 }
 
 .form-container input,textarea {
-    background: rgba(59, 59, 59, 0.034);
+    background: var(--foreground-color);
     outline: none;
-    border: 1px solid rgb(120, 120, 120);
+    border: 1px solid var(--secondaryHover-color);
     font-size: 1rem;
     padding: 0.7rem;
     border-radius: 0.3rem;
-    color: white;
+    color: var(--normalText-color);
 }
 
 .form-container label {
 
     margin-top: 1.5rem;
     margin-bottom: 0.3rem;
-    color: rgba(255, 255, 255, 0.708);
+    color: var(--normalText-color);
     font-size: 1.2rem;
 
 }
-
-.submit-btn {
-    margin: 2rem 0;
-    padding: 12px 24px;
-    font-size: 1rem;
-    text-transform: uppercase;
-    background: #02678977;
-    color: #fbfbfb;
-    font-weight: 600;
-    cursor: pointer;
-    border: none;
-    border-radius: 0.3rem;
-}
-
-
-  
-  .submit-btn:hover {
-    background: rgba(255, 255, 255, 0.2);
-    color: white;
-    transition: 0.3s;
-  }
 
   @media screen and (max-width: 1000px) {
 
@@ -86,10 +63,20 @@ border-radius: 1rem;
         width: 390px;
         padding: 1rem 0.7rem;
         margin-left: 0rem;
-        background-color: rgba(0, 0, 0, 0.493);
+        background-color: var(--background-color);
         border-radius: 1rem;
         overflow: hidden;
         
         }
-    
+
+        .form-container input,textarea {
+            background: var(--background-color);
+            outline: none;
+            border: 1px solid var(--secondaryHover-color);
+            font-size: 1rem;
+            padding: 0.7rem;
+            border-radius: 0.3rem;
+            color: var(--normalText-color);
+        }
+
   }
