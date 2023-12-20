@@ -10,8 +10,8 @@
 }
 
 .header-bg {
-    background: rgba(0, 0, 0, 0.543);
-        backdrop-filter: blur(40px);
+    background: rgba(0, 0, 0, 0.644);
+    backdrop-filter: blur(40px);
         -webkit-backdrop-filter: blur(40px);
     transition: 0.1s;
 }
@@ -47,9 +47,9 @@
         align-items: center;
         width: 100%;
         height: 100vh;
-        background: rgba(0, 0, 0, 0.751);
-        backdrop-filter: blur(40px);
-        -webkit-backdrop-filter: blur(40px);
+        background: rgba(0, 0, 0, 0.836);
+        /* backdrop-filter: blur(40px);
+        -webkit-backdrop-filter: blur(40px); */
         position: absolute;
         top: 0;
         left: -100%;
