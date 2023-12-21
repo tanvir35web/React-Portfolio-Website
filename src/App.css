@@ -1,6 +1,6 @@
-:root {
+.dark-theme {
     --background-color:  #121922;
-    --foreground-color:  #232f41;
+    --foreground-color:  #1e293986;
     --headingText-color: white;
     --normalText-color: rgba(255, 255, 255, 0.751);
     --hoverDiv-color: #38003890;
@@ -10,3 +10,20 @@
     --btn-color: #02678977;
     --backgroundOpacity-color:  rgba(18, 25, 34, 0.735);
   }
+
+
+.light-theme {
+    --background-color:  #e5f0ff;
+    --foreground-color:  #a7caff86;
+    --headingText-color: rgb(0, 0, 0);
+    --normalText-color: rgba(41, 41, 41, 0.751);
+    --hoverDiv-color: #38003890;
+    --hoverGlow-color: #98019884;
+    --secondary-color: #149ECA;
+    --secondaryHover-color: rgba(255, 255, 255, 0.2);
+    --btn-color: #02678977;
+    --backgroundOpacity-color:  rgba(138, 189, 255, 0.632);
+  }
+
+
+  

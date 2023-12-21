@@ -11,10 +11,10 @@ const ProjectCard = ({ image, alt, title, text, git, link }) => {
       <h2>{title}</h2>
       <p>{text}</p>
       <div className="project-button">
-        <Link to={link} className="project-btn">
+        <Link to={link} target="_blank" className="project-btn">
           Live Demo
         </Link>
-        <Link to={git} className="project-btn">
+        <Link to={git} target="_blank" className="project-btn">
           GitHub
         </Link>
       </div>
