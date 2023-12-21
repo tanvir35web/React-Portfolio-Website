@@ -3,11 +3,13 @@ import "./NavBarStyle.css";
 import React, { useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 
+
+
 const NavBar = () => {
 
     // ............Theme toggle Start .............
 
-  const [theme, setTheme] = useState("light-theme");
+  const [theme, setTheme] = useState("dark-theme");
 
   function toggleTheme() {
     if (theme === "dark-theme") {
@@ -64,9 +66,9 @@ const NavBar = () => {
           <Link to={"/contact"}> Contact </Link>
         </li>
       </ul>
-      <button onClick={() => toggleTheme()} className="submit-btn">
-      {theme === "light-theme" ? "Dark Mode" : "Light Mode"}
-      </button>
+      <div onClick={() => toggleTheme()} >
+      {theme === "dark-theme" ? <i class='bx bx-moon toggle-icon' ></i> : <i class='bx bxs-moon toggle-icon' ></i> }
+      </div>
 
       <div className="hamburger" onClick={handleClick}>
         {click ? (

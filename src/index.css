@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+
 * {
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -31,6 +32,7 @@ ul {
   font-weight: 600;
   cursor: pointer;
   border: none;
+  box-shadow: 4px 4px 7px var(--cardBoxShadow-color);
 }
 
 .btn-light {
@@ -57,6 +59,7 @@ ul {
   cursor: pointer;
   border: none;
   border-radius: 0.3rem;
+  box-shadow: 4px 4px 7px var(--cardBoxShadow-color);
 }
 
 
@@ -66,6 +69,27 @@ ul {
   transition: 0.3s;
 }
 
+
+.project-btn {
+  padding: 12px 24px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: var(--btn-color);
+  color: var(--normalText-color);
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.3rem;
+  width: 155px;
+  box-shadow: 4px 4px 7px var(--cardBoxShadow-color);
+  
+}
+
+.project-btn:hover {
+  background: var(--secondaryHover-color);
+  color: var(--normalText-color);
+  transition: 0.3s;
+}
 
 
 

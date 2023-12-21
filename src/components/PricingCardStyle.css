@@ -17,11 +17,12 @@
 }
 
 .card {
-    background: #2a2a2aa5;
+    background: var(--foreground-color);
     padding: 2rem;
     align-items: center;
     text-align: center;
     border-radius: 1rem ;
+    box-shadow: 4px 4px 7px var(--cardBoxShadow-color);
     transition: 0.3s ease;
 }
 
