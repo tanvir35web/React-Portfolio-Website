@@ -12,16 +12,16 @@ const Form = () => {
         </div>
         <div className="form-container">
             <label>Your Name</label>
-            <input></input>
+            <input type='text' required></input>
 
             <label>Email</label>
-            <input></input>
+            <input type='email' required></input>
 
             <label>Subject</label>
-            <input></input>
+            <input type='text' required></input>
 
             <label>Message</label>
-            <textarea rows={"6"} placeholder='Type your massage here'></textarea>
+            <textarea required rows={"6"} placeholder='Type your massage here'></textarea>
             <button className='submit-btn'>SUBMIT</button>
         </div>
 
