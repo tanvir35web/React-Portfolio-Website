@@ -13,12 +13,12 @@
     background: var(--backgroundOpacity-color);
     backdrop-filter: blur(40px);
         -webkit-backdrop-filter: blur(40px);
-    transition: 0.1s;
+    
 }
 
 .nav-menu {
     display: flex;
-    margin-left: 50rem;
+   
 }
 
 .nav-menu li {
@@ -69,7 +69,7 @@
         left: -100%;
         z-index: -3;
         transition: 0.2s ease;
-        margin-left: 0rem;
+        
     }
 
     .nav-menu.active {

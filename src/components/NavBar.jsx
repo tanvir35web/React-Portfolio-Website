@@ -7,6 +7,7 @@ import useLocalStorage from "use-local-storage";
 
 const NavBar = () => {
 
+
     // ............Theme toggle Start .............
 
   const [theme, setTheme] = useLocalStorage("theme", false);
@@ -34,7 +35,7 @@ const NavBar = () => {
   const [color, setColor] = useState(false);
 
   function changeColor() {
-    if (window.scrollY >= 0 || 1) {
+    if (window.scrollY >= 1) {
       setColor(true);
     } else {
       setColor(false);
@@ -43,11 +44,25 @@ const NavBar = () => {
 
   window.addEventListener("scroll", changeColor);
 
+
+  useEffect(() => {
+       if (window.location.pathname != '/') {
+      setColor(true);
+    } else {
+      setColor(false);
+    }
+  }, []); 
+
+
   return (
     <div className={color ? "header header-bg" : "header"}>
       <Link to={"/"}>
         <h1>Portfolio</h1>
       </Link>
+
+      <div onClick={() => toggleTheme()} >
+      {theme === "dark-theme" ? <i class='bx bx-moon toggle-icon' ></i> : <i class='bx bxs-moon toggle-icon' ></i> }
+      </div>
 
       <ul
         onClick={() => setClick(false)}
@@ -66,9 +81,7 @@ const NavBar = () => {
           <Link to={"/contact"}> Contact </Link>
         </li>
       </ul>
-      <div onClick={() => toggleTheme()} >
-      {theme === "dark-theme" ? <i class='bx bx-moon toggle-icon' ></i> : <i class='bx bxs-moon toggle-icon' ></i> }
-      </div>
+      
 
       <div className="hamburger" onClick={handleClick}>
         {click ? (
