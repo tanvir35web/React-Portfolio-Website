@@ -46,6 +46,8 @@
     outline: none;
     border-radius: 5rem;
     font-size: 1.8rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
     
 
 }
@@ -54,7 +56,7 @@
 
 
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 690px) {
     .nav-menu {
         flex-direction: column;
         justify-content: center;
@@ -92,6 +94,8 @@
     .toggle-icon {
         
         font-size: 1.5rem;
+        margin-top: 3rem;
+   
     
     }
 }
