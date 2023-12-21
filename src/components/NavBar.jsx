@@ -2,14 +2,14 @@ import { Link } from "react-router-dom";
 import "./NavBarStyle.css";
 import React, { useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-
+import useLocalStorage from "use-local-storage";
 
 
 const NavBar = () => {
 
     // ............Theme toggle Start .............
 
-  const [theme, setTheme] = useState("dark-theme");
+  const [theme, setTheme] = useLocalStorage("theme", false);
 
   function toggleTheme() {
     if (theme === "dark-theme") {
@@ -34,7 +34,7 @@ const NavBar = () => {
   const [color, setColor] = useState(false);
 
   function changeColor() {
-    if (window.scrollY >= 1) {
+    if (window.scrollY >= 0 || 1) {
       setColor(true);
     } else {
       setColor(false);
