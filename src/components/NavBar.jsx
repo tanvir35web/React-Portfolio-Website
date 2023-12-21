@@ -60,9 +60,7 @@ const NavBar = () => {
         <h1>Portfolio</h1>
       </Link>
 
-      <div onClick={() => toggleTheme()} >
-      {theme === "dark-theme" ? <i class='bx bx-moon toggle-icon' ></i> : <i class='bx bxs-moon toggle-icon' ></i> }
-      </div>
+      
 
       <ul
         onClick={() => setClick(false)}
@@ -80,6 +78,11 @@ const NavBar = () => {
         <li>
           <Link to={"/contact"}> Contact </Link>
         </li>
+
+        <div onClick={() => toggleTheme()} >
+      {theme === "dark-theme" ? <i class='bx bx-moon toggle-icon' ></i> : <i class='bx bxs-moon toggle-icon' ></i> }
+      </div>
+      
       </ul>
       
 
