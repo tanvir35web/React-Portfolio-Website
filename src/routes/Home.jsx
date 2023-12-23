@@ -4,7 +4,9 @@ import Hero from '../components/Hero'
 import Footer from '../components/Footer'
 import ProjectCards from '../components/ProjectCards'
 import Profile from '../components/Profile'
-import SkillsProgress from '../components/SkillsProgress'
+import Skills from '../components/skills/Skills'
+
+// import SkillsProgress from '../components/SkillsProgress'
 
 const Home = () => {
   return (
@@ -12,7 +14,8 @@ const Home = () => {
       <NavBar/>
       <Hero/>
       <Profile/>
-      <SkillsProgress/>
+      {/* <SkillsProgress/> */}
+      <Skills/>
       <ProjectCards/>
       <Footer/>
     </div>

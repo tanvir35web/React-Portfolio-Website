@@ -1,16 +1,16 @@
 .dark-theme {
     --background-color:  #121922;
-    --foreground-color:  #1e293986;
+    --foreground-color:  rgba(30, 41, 57, 0.506);
     --headingText-color: white;
     --normalText-color: rgba(255, 255, 255, 0.751);
-    --hoverDiv-color: #38003890;
-    --hoverGlow-color: #98019884;
+    --hoverDiv-color: #2e003890;
+    --hoverGlow-color: #980198ab;
     --secondary-color: #149ECA;
     --secondaryHover-color: rgba(255, 255, 255, 0.2);
     --btn-color: #02678977;
     --backgroundOpacity-color:  rgba(18, 25, 34, 0.735);
     --cardBoxShadow-color: #149cca00;
-    color: rgb(150, 150, 150);
+    --modern-color: rgba(115, 0, 173, 0.473);
   }
 
 
@@ -26,6 +26,8 @@
     --btn-color: #02678950;
     --backgroundOpacity-color:  rgba(112, 181, 223, 0.374);
     --cardBoxShadow-color: #348ca931;
+    --modern-color: rgba(168, 168, 168, 0.352);
+
   }
 
 
