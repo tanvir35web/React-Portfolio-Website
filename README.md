@@ -4,5 +4,10 @@ It's a portfolio website that is created by React JS and Raw CSS. Gradually I tr
 ## Live Demo 
 https://portfolio35-react.netlify.app/
 
+## Screenshots
+
+![App Screenshot](https://i.postimg.cc/WsXnDVv3/Screenshot-2023-12-23-205742.png)
+![App Screenshot](https://i.postimg.cc/mZ9jhp3g/Screenshot-2023-12-23-211442.png)
+
 ## Technology
 React JS and Raw CSS
