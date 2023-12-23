@@ -9,6 +9,35 @@
     flex-wrap: wrap;
 }
 
+
+
+/* Bg style purpose */
+
+.aboutMe-container::after,
+.aboutMe-container::before {
+    content: ' ';
+    width: 10rem;
+    height: 20rem;
+    border-radius: 20rem;
+    position: absolute;
+    z-index: -1;
+    filter: blur(350px);
+
+}
+
+.aboutMe-container::after{
+    background: #0249ada6;
+    left: 5rem;
+}
+
+.aboutMe-container::before{
+    background: #0354f6b2;
+    right: 5rem;
+}
+
+/* Bg style purpose */
+
+
 .aboutMe-container .left {
     text-align: center;
     margin: auto;

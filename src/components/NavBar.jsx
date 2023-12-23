@@ -10,7 +10,7 @@ const NavBar = () => {
 
     // ............Theme toggle Start .............
 
-  const [theme, setTheme] = useLocalStorage("theme", false);
+  const [theme, setTheme] = useLocalStorage("theme", true);
 
   function toggleTheme() {
     if (theme === "dark-theme") {

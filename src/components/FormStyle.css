@@ -10,6 +10,35 @@
 
 }
 
+
+
+/* Bg style purpose */
+
+.form::after,
+.form::before {
+    content: ' ';
+    width: 10rem;
+    height: 20rem;
+    border-radius: 20rem;
+    position: absolute;
+    z-index: -1;
+    filter: blur(250px);
+
+}
+
+.form::after{
+    background: #870101;
+    left: 5rem;
+}
+
+.form::before{
+    background: #0354f6ae;
+    right: 5rem;
+}
+
+/* Bg style purpose */
+
+
 .form h1 {
     text-align: center;
 }

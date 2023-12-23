@@ -24,6 +24,35 @@
     
 }
 
+
+/* Bg style purpose */
+
+.project-container::after,
+.project-container::before {
+    content: ' ';
+    width: 10rem;
+    height: 20rem;
+    border-radius: 20rem;
+    position: absolute;
+    z-index: -1;
+    filter: blur(200px);
+
+}
+
+.project-container::after{
+    background: #a50e0e;
+    left: 5rem;
+}
+
+.project-container::before{
+    background: #0354f6;
+    right: 5rem;
+}
+
+/* Bg style purpose */
+
+
+
 .project .projects-card {
     width: 400px;
     min-width: 300px;
@@ -40,6 +69,7 @@
     box-shadow: 4px 4px 7px var(--cardBoxShadow-color);
     
 }
+
 
 .project .projects-card:hover {
     scale: 1.02;

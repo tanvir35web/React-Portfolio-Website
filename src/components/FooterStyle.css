@@ -12,6 +12,35 @@
     grid-gap: 40px;
 }
 
+
+
+/* Bg style purpose */
+
+.footer-container::after,
+.footer-container::before {
+    content: ' ';
+    width: 10rem;
+    height: 12rem;
+    border-radius: 20rem;
+    position: absolute;
+    z-index: -1;
+    filter: blur(190px);
+
+}
+
+.footer-container::before{
+    background: #0e84a5;
+    left: 5rem;
+}
+
+.footer-container::after{
+    background: #f603f6;
+    right: 5rem;
+}
+
+/* Bg style purpose */
+
+
 .left {
     height: 100%;
     max-width: 100%;
