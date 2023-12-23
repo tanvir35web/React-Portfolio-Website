@@ -1,8 +1,3 @@
-import projectImg1 from '../assets/project1.png'
-import projectImg2 from '../assets/project2.png'
-import projectImg3 from '../assets/project3.png'
-import projectImg4 from '../assets/project4.png'
-
 
 export const PricingCardData = [
     {
