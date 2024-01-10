@@ -3,6 +3,7 @@ import diatomicSoft from '../assets/projects/diatomic soft.png'
 import reactPortfolio from '../assets/projects/React portfolio.png'
 import tikTacToe from '../assets/projects/tik-tac-toe.png'
 import bankOfReact from '../assets/projects/bank of react.png'
+import projectManagementApp from '../assets/projects/Project Management App.png'
 
 
 //pricing cards
@@ -72,4 +73,13 @@ export const ProjectCardData = [
         git:"https://github.com/tanvir35web/Bank-of-React",
         link:"https://bank-of-react35.netlify.app/",
     },
+    {
+        image: projectManagementApp,
+        alt: "Project Image",
+        title: "Project Management App",
+        text: "Projects Can be managed using this web application. New projects can be added, deleted, or edited. Add under the project tasks can be add",
+        git:"https://github.com/tanvir35web/Project-Management-App",
+        link:"https://manage-project35.netlify.app/",
+    },
+
 ];
