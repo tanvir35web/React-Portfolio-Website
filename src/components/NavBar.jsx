@@ -8,9 +8,9 @@ import useLocalStorage from "use-local-storage";
 const NavBar = () => {
 
 
-    // ............Theme toggle Start .............
+  // ............Theme toggle Start .............
 
-  const [theme, setTheme] = useLocalStorage("theme", true);
+  const [theme, setTheme] = useLocalStorage("theme", "dark-theme");
 
   function toggleTheme() {
     if (theme === "dark-theme") {
@@ -56,7 +56,7 @@ const NavBar = () => {
 
   return (
     <div className={color ? "header header-bg" : "header"}>
-      <Link to={"/"}>
+      <Link to="/">
         <h1>Portfolio</h1>
       </Link>
 
@@ -67,16 +67,16 @@ const NavBar = () => {
         className={click ? "nav-menu active" : "nav-menu"}
       >
         <li>
-          <Link to={"/"}> Home </Link>
+          <Link to="/"> Home </Link>
         </li>
         <li>
-          <Link to={"/project"}> Project </Link>
+          <Link to="/project"> Project </Link>
         </li>
         <li>
-          <Link to={"/about"}> About </Link>
+          <Link to="/about"> About </Link>
         </li>
         <li>
-          <Link to={"/contact"}> Contact </Link>
+          <Link to="/contact"> Contact </Link>
         </li>
 
         <div onClick={() => toggleTheme()} >
