@@ -24,7 +24,7 @@ const Profile = () => {
           </p>
           <div className="social-icon-cv">
             <div className="cv">
-              <Link to={"https://drive.google.com/file/d/19hqFY_4AChVRcNDPMsJeGZbtIv-rBErp/view?usp=sharing"} target="_blank" className="submit-btn">DOWNLOAD RESUME</Link>
+              <Link to={"https://drive.google.com/file/d/1xNFnxXcEDQjk5sn-VJxx3Amm_db6FBnN/view?usp=sharing"} target="_blank" className="submit-btn">DOWNLOAD RESUME</Link>
             </div>
             <div className="social-link">
               <Link
